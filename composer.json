@@ -1,0 +1,31 @@
+{
+    "name": "xstreamka/yii2-mobile-detect",
+    "description": "Mobile_Detect class for Yii2 with the ability to add new devices.",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "extension", "mobile_detect", "mobile detect", "device", "detect"],
+    "license": "MIT",
+    "support": {
+        "source": "https://github.com/xstreamka/yii2-mobile-detect",
+        "issues": "https://github.com/xstreamka/yii2-mobile-detect/issues"
+    },
+    "authors": [
+        {
+            "name": "XStream",
+            "email": "xstreamka@gmail.com",
+            "homepage": "https://github.com/xstreamka/yii2-mobile-detect",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "extra": {
+        "bootstrap": "xstreamka\\mobiledetect\\Bootstrap"
+    },
+    "autoload": {
+        "psr-4": {
+            "xstreamka\\mobiledetect\\": "src"
+        }
+    }
+}
